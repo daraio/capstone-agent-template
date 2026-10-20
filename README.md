@@ -1,7 +1,17 @@
 # capstone-agent — a persistent research agent on Claude Code (ME/CE/AM 295, Lab 4)
 
-This repository is the agent. Students: on GitHub, **Use this template → Create a
-new repository** (private, named `capstone-agent`), then clone it to your laptop.
+This repository is the agent. Students: in the terminal (after `gh auth login`),
+make your private copy and clone it. Run one line at a time:
+
+```bash
+cd ~/Desktop
+T=daraio/capstone-agent-template
+gh repo create capstone-agent --private --template $T --clone
+cd capstone-agent
+```
+
+Without the GitHub CLI: **Use this template → Create a new repository** (private,
+named `capstone-agent`) on github.com, then clone it with GitHub Desktop.
 
 | Path | Part (Lecture 7) | What it is |
 |---|---|---|
